@@ -2,8 +2,8 @@
 #include <ArduinoHttpClient.h>
 
 // WiFi credentials
-char ssid[] = "Parth";  
-char pass[] = "123456";  
+char ssid[] = "parth iPhone";  
+char pass[] = "98765432";  
 
 // Sensor and threshold settings
 const int lightSensorPin = A4;  
@@ -14,7 +14,7 @@ char serverAddress[] = "maker.ifttt.com";
 String eventName = "Light_trigger";  
 
 // Secure your IFTTT key
-const String IFTTT_Key = "gX6g80rGtiYOWoqcL-7w9t7M1TyBcMVkVnlA8jtbOM4";  
+const String IFTTT_Key = "ecptXDUST0gR×9PL5zqy-7cReX1sWuZIckDcqcVgAU ";  
 
 // WiFi and HTTP client objects
 WiFiClient wifi;
